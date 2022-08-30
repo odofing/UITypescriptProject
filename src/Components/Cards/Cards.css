@@ -1,0 +1,52 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black 2px solid;
+  margin: 10px 0px;
+  border-radius: 10px;
+  background-color: white;
+
+  width: 150%;
+  cursor: pointer;
+}
+:any-link {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container > p {
+  color: black;
+}
+
+.p1 {
+  font-weight: 700;
+  margin: 0px;
+}
+
+.p2 {
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 90%;
+  width: 70px;
+  margin: 25px 25px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    width: 130%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cards {
+    width: 130%;
+  }
+}

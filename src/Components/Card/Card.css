@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  border: black 2px solid;
+  margin: 20px 0px;
+  border-radius: 10px;
+  background-color: white;
+  width: 40%;
+}
+:any-link {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  margin: 20px 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container > p {
+  color: black;
+}
+
+.p3 {
+  display: flex;
+  align-self: flex-end;
+}
+img {
+  border-radius: 90%;
+  width: 70px;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+}
